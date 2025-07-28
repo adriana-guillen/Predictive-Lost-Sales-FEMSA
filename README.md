@@ -1,9 +1,12 @@
 # Predictive Lost Sales – FEMSA
 
 This project is inspired by a real business case I led during my time at a major retail group in Mexico (FEMSA).
-It simulates lost sales due to unexhibited inventory, using fully anonymized and simulated data based on the original business scenario.
 
-This project simulates a real business case originally led at FEMSA, focused on estimating lost sales from unexhibited inventory in retail operations. The objective is to predict the financial impact of products stored in the warehouse but not visible on store shelves — a critical issue in retail execution.
+It SIMULATES lost sales due to unexhibited inventory, using fully anonymized and simulated data based on the original business scenario.
+
+This project simulates a real business case originally led at FEMSA, focused on estimating lost sales from unexhibited inventory in retail operations. 
+
+The objective is to predict the financial impact of products stored in the warehouse but not visible on store shelves — a critical issue in retail execution.
 
 ---
 
