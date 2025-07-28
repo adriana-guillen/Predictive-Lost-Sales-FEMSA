@@ -43,6 +43,10 @@ The model uses regression techniques to estimate expected sales and identify the
 ---
 
 ## 📘 Notebook
+
+**Disclaimer:**  
+This project is for educational and portfolio purposes only. The business scenario is inspired by real operational challenges I experienced during my career, but the dataset is entirely simulated and anonymized. No proprietary data or confidential company information is shared.
+
 You can explore the full project implementation here:
 
 👉 [Predictive_Lost_Sales_V6.ipynb](./Predictive_Lost_Sales_V6.ipynb)
