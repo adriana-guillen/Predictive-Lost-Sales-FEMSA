@@ -13,11 +13,14 @@ The model provides a scalable mechanism to identify, quantify, and prioritize re
 ---
 
 ## 2. Business Context
+
 In retail operations, product availability does not guarantee product visibility.
 
-At FEMSA, a recurring issue was identified where inventory was physically present in stores but remained unexhibited due to shelf space limitations, poor replenishment practices, or operational inefficiencies.
+In my previous role within the Oxxo retail division at FEMSA, I encountered a recurring operational issue where inventory was physically present in stores but remained unexhibited due to shelf space limitations, replenishment gaps, and execution inefficiencies.
 
-This resulted in lost sales opportunities, as customers could not purchase products that were not accessible on shelves.
+This disconnect between stock availability and customer access translated directly into lost sales, as products stored in backrooms or secondary locations were effectively invisible at the point of purchase.
+
+Given the high dependence of retail performance on shelf exposure and customer convenience, this issue represented a consistent source of revenue leakage across stores.
 
 ---
 
