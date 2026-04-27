@@ -1,64 +1,80 @@
-# Predictive Lost Sales – FEMSA
+# The Bodega Problem: Revenue Leakage from Hidden Inventory.
 
-This project is inspired by a real business case I led during my time at a major retail group in Mexico (FEMSA).
+## 1. Executive Summary
+This project estimates revenue loss caused by inventory that is available in-store but not visible to customers due to display constraints.
 
-It SIMULATES lost sales due to unexhibited inventory, using fully anonymized and simulated data based on the original business scenario.
+Using a regression-based approach, the model quantifies the gap between expected and realized sales, translating operational inefficiencies into measurable financial impact.
 
-This project simulates a real business case originally led at FEMSA, focused on estimating lost sales from unexhibited inventory in retail operations. 
-
-The objective is to predict the financial impact of products stored in the warehouse but not visible on store shelves — a critical issue in retail execution.
-
----
-
-## 🎯 Project Objective
-To build a predictive model that estimates the value of lost sales per product category and store based on inventory levels, sales patterns, and visibility variables.
+The analysis demonstrates that unexhibited inventory is not a minor execution issue, but a significant source of revenue leakage that can be systematically identified and reduced.
 
 ---
 
-## 🛠️ Tools Used
-- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-- Jupyter Notebook
-- CSV Simulated Data
+## 2. Business Context
+In retail operations, product availability does not guarantee product visibility.
+
+At FEMSA, a recurring issue was identified where inventory was physically present in stores but remained unexhibited due to shelf space limitations, poor replenishment practices, or operational inefficiencies.
+
+This resulted in lost sales opportunities, as customers could not purchase products that were not accessible on shelves.
 
 ---
 
-## 📊 Data Used
-The dataset simulates a subset of inventory and sales activity across retail stores.
+## 3. Analytical Objective
+To estimate the financial impact of unexhibited inventory by:
 
-**Filename**: `inventory_femsa_simulated_database.csv`  
-*Note: Based on a real business case. No confidential data is shared.*
-
----
-
-## ⚙️ Modeling Approach
-The model uses regression techniques to estimate expected sales and identify the delta between expected and actual sales when items were not exhibited. Feature engineering, correlation analysis, and performance evaluation are included.
+- Predicting expected sales based on demand drivers and product characteristics  
+- Comparing expected vs. actual sales to quantify lost revenue  
+- Identifying which product categories and store conditions generate the highest revenue leakage  
 
 ---
 
-## 💡 Key Insights
-- Product categories with high stock but low exhibition contribute most to lost sales.
-- Regional variation plays a role in replenishment efficiency.
-- Predictive modeling helps quantify potential recovery from better inventory visibility.
+## 4. Approach
+A regression modeling framework was applied to estimate expected sales under normal exhibition conditions.
+
+Key elements include:
+
+- Feature engineering on demand drivers, stock levels, and product attributes  
+- Correlation analysis to identify key predictors of sales performance  
+- Model training using regression techniques (scikit-learn and statsmodels)  
+- Evaluation of model performance and residual analysis  
+
+The difference between predicted (expected) sales and actual sales is interpreted as lost sales due to lack of visibility.
 
 ---
 
-## 📘 Notebook
-
-**Disclaimer:**  
-This project is for educational and portfolio purposes only. The business scenario is inspired by real operational challenges I experienced during my career, but the dataset is entirely simulated and anonymized. No proprietary data or confidential company information is shared.
-
-You can explore the full project implementation here:
-
-👉 [Predictive_Lost_Sales_V6.ipynb](./Predictive_Lost_Sales_V6.ipynb)
-
-The notebook includes:
-- Data cleaning & preprocessing
-- Exploratory data analysis
-- Regression modeling using both scikit-learn and statsmodels
-- Visualizations with Matplotlib and Seaborn
-- Final business interpretation and conclusions
+## 5. Key Results
+- Significant revenue gaps were identified between expected and actual sales across multiple product categories  
+- High-stock, low-visibility products consistently generated the largest losses  
+- The model provides a scalable method to estimate lost sales at the SKU and store level  
 
 ---
 
-## 📬 Contact
-For questions or collaboration inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/) or check out my [portfolio](https://github.com/adriana-guillen).
+## 6. Operational Implications
+The results support a shift from reactive inventory management to visibility-driven execution.
+
+Key applications include:
+
+- Prioritizing shelf space allocation based on revenue impact  
+- Identifying stores with systematic exhibition gaps  
+- Improving replenishment and display strategies  
+- Supporting operational audits with quantitative evidence  
+
+---
+
+## 7. Business Value
+This solution reframes inventory visibility as a measurable financial lever rather than an operational detail.
+
+By quantifying lost sales, organizations can:
+
+- Recover hidden revenue without increasing inventory investment  
+- Improve capital efficiency by aligning stock with actual demand exposure  
+- Enable faster, data-driven decisions in store operations  
+
+---
+
+## 8. Data Disclaimer
+The dataset used in this project is fully synthetic and anonymized.
+
+It was designed to replicate real operational patterns observed in retail environments, including inventory behavior, demand variability, and product visibility constraints.
+
+No proprietary or confidential data from FEMSA or any organization is included.
+
