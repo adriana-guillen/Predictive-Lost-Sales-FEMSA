@@ -25,7 +25,7 @@ When extrapolated across a network of 13,000 stores (in 2013; Oxxo currently ope
 ## Full Analysis.
 
 The complete methodology, data preparation, modeling approach, and detailed results are available in the notebook:
-[View Notebook](./Predictive_Lost_Sales_V6.ipynb)
+[View Notebook](https://github.com/adriana-guillen/bodega-revenue-leakage/blob/main/bodega_revenue_leakage.ipynb)
 
 
 
