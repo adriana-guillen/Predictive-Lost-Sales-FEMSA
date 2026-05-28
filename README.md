@@ -2,7 +2,7 @@
 
 ## Executive Summary.
 
-This project addresses a hidden source of revenue leakage in retail operations, where products remain in backroom inventory due to limited shelf space, making them effectively unavailable for purchase.
+This project addresses a hidden source of revenue leakage in retail operations, where products remain in backroom inventory due to operational concerns related to theft risk, high product value, and category obsolescence, making them effectively unavailable for purchase.
 
 This initiative is based on a real operational challenge observed during my experience at FEMSA.
 
