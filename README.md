@@ -16,7 +16,7 @@ These results demonstrate that targeted **SKU-level visibility management** can 
 
 When extrapolated across a network of 13,000 stores (in 2013; Oxxo currently operates more than 23,000 stores in Mexico), this translates into a **simulated recoverable revenue of approximately** **58.9 million MXN*** (≈ **3.34 million USD**), demonstrating how small visibility gaps at the store level can compound into meaningful financial impact at scale.
 
-*Note: Network extrapolation represents a directional estimate based on observed assortment-level impact and is intended to illustrate magnitude rather than exact realized value.*
+*NOTE: Network extrapolation represents a directional estimate derived from validated store-level results and is intended to illustrate magnitude rather than an exact realized network value.*
 
 *No proprietary or confidential data from FEMSA or any organization is included.*
 
